@@ -1,5 +1,5 @@
 function auth(req, res, next) {
-    const userAuthenticated = true; // Implementasi sebenarnya perlu disesuaikan
+    const userAuthenticated = true;
   
     if (userAuthenticated) {
       next();
